@@ -1,0 +1,197 @@
+@import "https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap";
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    
+   
+    font-family: Muli;
+}
+body{
+    transition: 300ms;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    border: none;
+}
+.nav-link:hover{
+    color: black;
+}
+.btn-dark{
+    
+    
+  
+    background-color: black;
+    width: 100px;
+    border-radius: 99px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-dark:hover{
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+}
+.navbar-expand-sm{
+    padding: 10px  0px;
+}
+
+.bg-yellow{
+    background-color: #c4e2ff;
+    padding: 5px;
+    
+     
+    
+}
+.border-bottom-dark{
+            
+        border-bottom: 1px solid #414141;
+}
+.bo{
+    
+    height: 25px;
+    fill: rgb(24, 16, 5);
+    
+}
+.image{
+    position: relative;
+    left: 10px;
+    width: 500px;
+    height: 350px;
+}
+
+.h1-top{
+    text-align: start;
+    letter-spacing: -0.05em;
+    line-height: 74px;
+    font-size: 70px;
+    font-family: Muli;
+    font-weight: 400;
+    box-sizing: inherit;
+    
+    
+  
+}
+h3{
+    line-height: 24px;
+    display: block;
+    font-size: 18px;
+    color: rgba(41, 41, 41, 1);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    font-family: Muli;
+}
+#nav-top{
+    
+    font-family: Muli;
+}
+#nav-top::after{
+    transition: 300ms;
+}
+article{
+    margin-bottom: 50px;
+}
+.me-5{
+    color: rgba(230, 230, 230, 1);
+    position: relative;
+    right: 15px;
+    font-size: 30px; 
+    font-family: Muli;
+    font-weight: bold;
+}
+.navbar-toggler-icon{
+    color: black;
+    position: relative;
+    top: 5px;
+}
+
+.aside-buttons >  li{
+    font-weight: 700;
+    font-family: Muli;
+    color: rgba(41, 41, 41, 1);
+    margin-bottom: 5px;
+
+}
+
+.left-button{
+    font-size: 13px;
+    border-radius: 100px;
+    padding: 2px 8px;
+    color: rgba(117, 117, 117, 1);
+    font-size: 13px;
+    transition: background 300ms ease 0s;
+    background-color: rgba(242, 242, 242, 1);
+    font-family: Muli;
+    font-weight: 400;
+    border: 1px gray;
+    
+}
+.left-button:hover{
+    background-color: rgb(230, 227, 227);
+}
+
+.border-bottom{
+    position: relative;
+    top: 50px;
+}
+
+.right-alt-links{
+    color: rgba(117, 117, 117, 1);
+    text-decoration: none;
+    font-weight: 400;
+    box-sizing: inherit;
+    position: relative;
+    top: 30px;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Muli;
+}
+
+.right-alt-links:hover{
+    color: rgb(145, 145, 145);
+}
+
+.border-top{
+    border-right: 1px solid #dee2e6;
+  
+    border-top-right-radius: 5px;
+}
+
+.shadow-image{
+    
+	transform: scale(1);
+	
+	transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.shadow-image:hover{
+    
+	transform: scale(1.06);
+   
+
+}
+.btn-outline-secondary{
+    transition: .3s ease;
+    color: rgb(145, 145, 145);
+}
+.btn-outline-secondary:hover{
+    background-color: inherit;
+    color: rgb(145, 145, 145);
+    transform: scale(1.06);
+}
+
+.greenClass{
+    background-color: inherit;
+    
+}
